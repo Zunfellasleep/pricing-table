@@ -1,0 +1,126 @@
+body{
+    background-color:black;
+}
+.container{
+    display:flex;
+    gap : 40px;
+    justify-content : center;
+}
+.box{
+    background-color: azure;
+    max-width: 20rem;
+    min-width: 20rem;
+    margin-top: 16vh;
+    height: 70vh;
+    border-radius: 20px;
+}
+.header{
+    text-align: center;
+    border-radius: 10px;
+    color: solid black;
+    padding: 10px;
+}
+#basichead{
+    background-color: yellow;
+}
+#megahead{
+    background-color: cornflowerblue;
+}
+#nitrohead{
+    background-color: darkolivegreen;
+}
+h1{
+    margin: 0;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+.pricing{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+.rupees{
+    font-size: 3rem;
+}
+.money{
+    font-size: 4rem;
+    align-self: flex-start;
+    font-weight: 500;
+}
+.duration{
+    font-size: 2rem;
+    align-self: flex-end;
+}
+li{
+    padding: 5px;
+    list-style: none;
+    font-size: 10px;
+    font-weight: 800;
+}
+.Basic .tick{
+    color: brown;
+}
+.mega .tick{
+    color: blue;
+}
+.nitro .tick{
+    color:cadetblue;
+}
+.button{
+    justify-content: center;
+    display: flex;
+}
+#basic-button:hover{
+    color: green;
+}
+#mega-button:hover{
+    color: green;
+}
+#nitro-button:hover{
+    color: green;
+}
+#basic-button{
+    cursor: pointer;
+    color: rgb(73, 6, 6);
+    background-color: #adee63;
+    border: greenyellow;
+    border-radius: 15px;
+    padding: 6px;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+#mega-button {
+    cursor: pointer;
+    color: white;
+    background-color: #9384D1;
+    border: #9384D1;
+    border-radius: 15px;
+    padding: 6px;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+#nitro-button {
+    cursor: pointer;
+    color: white;
+    background-color: #063531;
+    border: #F7D060;
+    border-radius: 15px;
+    padding: 6px;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+@media (max-width: 700px) {
+    .container {
+        flex-direction: column;
+        gap: 70px;
+        align-items: center;
+    }
+    .box {
+        margin-top: 0;
+        height: 80vh;
+    }
+}
+
